@@ -1,0 +1,5 @@
+module "name" {
+  source = "../Day-7-modules"
+  ami_id = "ami-0157af9aea2eef346"
+  type = "t3.micro"
+}
